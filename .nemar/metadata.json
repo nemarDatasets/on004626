@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and event-related potentials.",
+  "description": "This dataset investigates the dissociation between hypervigilance to social threats and altered perceptual decision-making in lonely individuals using event-related potentials (ERP) and Drift Diffusion Modeling. The study combines electrophysiological recordings with computational modeling to examine whether loneliness-related social threat sensitivity reflects genuine perceptual changes or decision-level alterations in threat processing.",
+  "methods_description": "Data collection involved event-related potential (ERP) recordings during a perceptual decision-making task with social threat stimuli. Drift Diffusion Modeling was applied to behavioral responses to dissociate perceptual sensitivity from decision criteria.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,44 +18,6 @@
     "Marta Chrustowicz": {},
     "Łukasz Okruszek": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004626.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004626",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004626",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1111/psyp.14406",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset investigates the cognitive and neural mechanisms underlying loneliness by examining whether hypervigilance to social threats can be dissociated from altered perceptual decision-making processes in lonely individuals. Using event-related potentials (ERP) and drift diffusion modeling, the study combines electrophysiological recordings with computational modeling of decision-making to elucidate the distinct contributions of threat sensitivity and perceptual processing to loneliness-related social cognition.",
-  "methods_description": "Data collection involved event-related potential (ERP) recordings and behavioral measures of perceptual decision-making. Drift diffusion modeling was applied to decompose decision-making processes into their underlying cognitive components.",
   "keywords": [
     {
       "term": "EEG"
@@ -68,19 +32,35 @@
       "term": "social threat perception"
     },
     {
-      "term": "drift diffusion modeling"
-    },
-    {
-      "term": "decision-making"
+      "term": "Drift Diffusion Modeling"
     },
     {
       "term": "hypervigilance"
     },
     {
-      "term": "social cognition"
+      "term": "perceptual decision-making"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004626",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     },
     {
-      "term": "threat detection"
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004626",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.14406",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004626.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -88,5 +68,20 @@
       "funder_name": "Not reported"
     }
   ],
-  "source_hash": "fe4bc2eb7b98755f07e3f342034e8319867ff87c029f16b98307a13decca052f"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "21.3 GB (105 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "8812536cc3bf93724ca1f5f674bdeaa520d6ad1a03be0bf40f47db7b602f3f8c"
 }
