@@ -1,29 +1,92 @@
 {
   "version": "2.0",
-  "dataset_id": "on004626",
-  "source": "openneuro",
-  "source_id": "ds004626",
+  "pipeline_stage": "enriched",
   "title": "Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and event-related potentials.",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Szymon Mąka": {},
+    "Szymon Mąka": {
+      "orcid": "0000-0002-2490-9329",
+      "affiliations": [
+        {
+          "name": "Social Neuroscience Lab, Institute of Psychology Polish Academy of Sciences  Warsaw Poland"
+        }
+      ]
+    },
     "Marta Chrustowicz": {},
     "Łukasz Okruszek": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004626.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004626",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004626",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.14406",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset investigates the cognitive and neural mechanisms underlying loneliness by examining whether hypervigilance to social threats can be dissociated from altered perceptual decision-making processes in lonely individuals. Using event-related potentials (ERP) and drift diffusion modeling, the study combines electrophysiological recordings with computational modeling of decision-making to elucidate the distinct contributions of threat sensitivity and perceptual processing to loneliness-related social cognition.",
+  "methods_description": "Data collection involved event-related potential (ERP) recordings and behavioral measures of perceptual decision-making. Drift diffusion modeling was applied to decompose decision-making processes into their underlying cognitive components.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "loneliness"
+    },
+    {
+      "term": "social threat perception"
+    },
+    {
+      "term": "drift diffusion modeling"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "hypervigilance"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "threat detection"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not reported"
+    }
+  ],
+  "source_hash": "fe4bc2eb7b98755f07e3f342034e8319867ff87c029f16b98307a13decca052f"
 }
