@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004626-blue)](https://doi.org/10.82901/nemar.on004626)
+
 Dataset is related to publication: Mąka, S., Chrustowicz, M., & Okruszek, Ł. (2023). Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modeling and event-related potentials. Psychophysiology, e14406. https://doi. org/10.1111/psyp.14406
